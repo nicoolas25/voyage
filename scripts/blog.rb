@@ -79,7 +79,7 @@ module Blog
       ]
     end
 
-    def url(size=:url_o)
+    def url(size=:url_c)
       @info ||= flickr.photos.getInfo(photo_id: flickr_id)
       FlickRaw.__send__(size, @info)
     end
