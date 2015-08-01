@@ -30,10 +30,7 @@ module Blog
     end
 
     def flickr_url
-      "https://www.flickr.com/photos/%s/sets/%s" % [
-        Blog::USER["id"],
-        @album_id
-      ]
+      @flickr_url ||= flickr.call("flickr.sharing.createGuestpass", set: @album_id)["url"]
     end
 
     private
@@ -100,7 +97,7 @@ module Blog
 
     def upload_photo
       puts "  uploading the #{basename} photo..."
-      flickr.upload_photo(path, title: basename)
+      flickr.upload_photo(path, title: basename, is_public: 0)
     end
   end
 
