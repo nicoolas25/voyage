@@ -29,6 +29,13 @@ module Blog
       @images.map(&:add_to_album!)
     end
 
+    def flickr_url
+      "https://www.flickr.com/photos/%s/sets/%s" % [
+        Blog::USER["id"],
+        @album_id
+      ]
+    end
+
     private
 
     def find_album
@@ -64,6 +71,23 @@ module Blog
       puts "  adding the #{basename} photo to the article album..."
     end
 
+    def flickr_url
+      "https://www.flickr.com/photos/%s/%s/in/album-%s/" % [
+        Blog::USER["id"],
+        flickr_id,
+        article.album_id
+      ]
+    end
+
+    def url(size=:url_o)
+      @info ||= flickr.photos.getInfo(photo_id: flickr_id)
+      FlickRaw.__send__(size, @info)
+    end
+
+    def basename
+      @basename ||= File.basename(path)
+    end
+
     private
 
     def find_photo
@@ -77,10 +101,6 @@ module Blog
     def upload_photo
       puts "  uploading the #{basename} photo..."
       flickr.upload_photo(path, title: basename)
-    end
-
-    def basename
-      @basename ||= File.basename(path)
     end
   end
 
