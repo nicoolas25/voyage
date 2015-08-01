@@ -63,7 +63,8 @@ module Blog
     end
 
     def flickr_url
-      @flickr_url ||= flickr.call("flickr.sharing.createGuestpass", set: @album_id)["url"]
+      args = { set: @album_id, is_private: 1, is_family: 1, is_friend: 1 }
+      @flickr_url ||= flickr.call("flickr.sharing.createGuestpass", args)["url"]
     end
 
     def store!
@@ -104,14 +105,6 @@ module Blog
     rescue FlickRaw::FailedResponse
       raise unless $!.message.end_with?("Photo already in set")
       puts "  adding the #{basename} photo to the article album..."
-    end
-
-    def flickr_url
-      "https://www.flickr.com/photos/%s/%s/in/album-%s/" % [
-        Blog::USER["id"],
-        flickr_id,
-        article.album_id
-      ]
     end
 
     def url(size=:url_c)

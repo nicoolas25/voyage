@@ -7,8 +7,4 @@ article.sync!
 puts "Here is the corresponding album URL:"
 puts "  #{article.flickr_url}"
 puts "Here is the list of the image URLs from flickr:"
-article.images.each do |image|
-  puts "  #{image.basename}"
-  puts "    jpg    - #{image.url}"
-  puts "    flickr - #{image.flickr_url}"
-end
+article.images.each { |image| puts "  #{image.basename} - #{image.url}" }
