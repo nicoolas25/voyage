@@ -1,36 +1,78 @@
+require "pstore"
+
 module Blog
   ROOT_DIR = File.expand_path(File.join(File.dirname(__FILE__), ".."))
 
   class Article
     attr_reader :path, :images, :album_id
 
-    def self.all
-      Dir["#{ROOT_DIR}/_posts/*"].select { |f| File.directory?(f) }.map { |f| new(f) }
-    end
+    class << self
+      def all
+        candidates.map { |path| fetch(path) }
+      end
 
-    def self.find
-      candidates = all
-      puts "Select the index of the article you're looking for:"
-      candidates.each_with_index { |a, i| puts "%3i - %s" % [i, a.path] }
-      selected_index = gets.chomp.to_i
-      candidates[selected_index]
+      def find
+        puts "Select the index of the article you're looking for:"
+        candidates.each_with_index { |path, i| puts "%3i - %s" % [i, path] }
+        selected_index = gets.chomp.to_i
+        selected_path = candidates[selected_index]
+        fetch(selected_path)
+      end
+
+      def fetch(path)
+        basename = File.basename(path, ".markdown")
+        spath = store_path(basename)
+        if File.exist?(spath)
+          store = PStore.new(spath)
+          store.transaction(true) { store[:article] }
+        else
+          new(path)
+        end
+      end
+
+      def store(instance)
+        store = PStore.new(store_path(instance.basename))
+        store.transaction { store[:article] = instance }
+      end
+
+      private
+
+      def candidates
+        @candidates ||= Dir["#{ROOT_DIR}/_posts/*.markdown"]
+      end
+
+      def store_path(basename)
+        "#{ROOT_DIR}/public/flickr/#{basename}/article.pstore"
+      end
     end
 
     def initialize(path)
       @path = path
       @images = Dir["#{ROOT_DIR}/public/flickr/#{basename}/*.jpg"].map { |f| Image.new(self, f) }
+      @stored = false
     end
 
     def sync!
-      return if @images.empty?
+      return if @stored || @images.empty?
       puts "Syncing #{basename} article..."
       @images.map(&:sync!)
       @album_id ||= find_album || create_album
       @images.map(&:add_to_album!)
+      flickr_url
+      store!
     end
 
     def flickr_url
       @flickr_url ||= flickr.call("flickr.sharing.createGuestpass", set: @album_id)["url"]
+    end
+
+    def store!
+      @stored = true
+      self.class.store(self)
+    end
+
+    def basename
+      @basename ||= File.basename(@path, ".markdown")
     end
 
     private
@@ -47,10 +89,6 @@ module Blog
       puts "  creating the #{basename} album..."
       result = flickr.photosets.create(title: basename, primary_photo_id: @images.first.flickr_id)
       result["id"]
-    end
-
-    def basename
-      @basename ||= File.basename(@path)
     end
   end
 
