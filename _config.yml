@@ -11,4 +11,3 @@ author:
 
 paginate: 5
 markdown: kramdown
-permalink: ":title"

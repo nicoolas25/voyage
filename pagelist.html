@@ -1,0 +1,23 @@
+---
+layout: page
+title: Liste des billets
+permalink: /index/
+---
+
+{% for category in site.categories %}
+{% assign country = category[0] %}
+{% if site.data.countries[country] %}
+<div class="category-index">
+  <h2>{{ country }}</h2>
+  <ul>
+    {% assign posts_list = site.categories[country] | sort:"date" %}
+    {% for post in posts_list %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      <span class="post-date">le {{ post.date | date_to_string }}</span>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
+{% endfor %}
