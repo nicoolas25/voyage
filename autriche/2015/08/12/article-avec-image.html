@@ -170,6 +170,11 @@ Du coup voila une photo, et un texte.</p>
 <script>
   $( document ).ready(function(){
     $(".button-collapse").sideNav();
+
+    $(document).on("click", ".posts .post.card", function(event){
+      var href = $(event.target).closest(".post.card").find("a[href]").first().prop("href");
+      window.location.href = href;
+    });
   })
 </script>
 
