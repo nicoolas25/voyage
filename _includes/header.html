@@ -1,0 +1,33 @@
+<header>
+  <nav>
+    <div class="nav-wrapper">
+      <a href="/" class="brand-logo center">Poux et puces</a>
+      <a href="#" data-activates="side-nav" class="button-collapse waves-effect waves-light">
+        <i class="material-icons">menu</i>
+      </a>
+
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        {% assign pages_list = site.pages | sort:"url" %}
+        {% for node in pages_list %}{% if node.title != null %}{% if node.layout == "page" %}
+        <li class="{% if page.url == node.url %}active{% endif %}">
+          <a class="waves-effect waves-light" href="{{ node.url }}">
+            {{ node.title }}
+          </a>
+        </li>
+        {% endif %}{% endif %}{% endfor %}
+      </ul>
+
+      <ul class="side-nav" id="side-nav">
+        {% assign pages_list = site.pages | sort:"url" %}
+        {% for node in pages_list %}{% if node.title != null %}{% if node.layout == "page" %}
+        <li class="{% if page.url == node.url %}active{% endif %}">
+          <a class="waves-effect waves-light" href="{{ node.url }}">
+            {{ node.title }}
+          </a>
+        </li>
+        {% endif %}{% endif %}{% endfor %}
+      </ul>
+
+    </div>
+  </nav>
+</header>

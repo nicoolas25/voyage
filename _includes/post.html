@@ -1,0 +1,56 @@
+<div class="post card rr{% random 5 %}">
+
+  <div class="card-content postcard">
+    <div class="col s7 postcard-body">
+      <span class="post-title card-title">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </span>
+      <div class="post-excerpt">
+        {{ post.excerpt }}
+      </div>
+      <div class="read-more">
+        <a href="{{ post.url }}">En savoir plus !</a>
+      </div>
+    </div>
+
+    <div class="col s5 postcard-address">
+      <div class="header">
+        <span class="post-date rr{% random 5 5 %}">{{ post.date | date_to_string }}</span>
+        <span class="post-stamp rr{% random 5 5 %}"></span>
+      </div>
+      <ul class="location">
+        <li> {{ post.location[0] }} </li>
+        <li> {{ post.location[1] }} </li>
+        <li> {{ post.location[2] }} </li>
+      </ul>
+    </div>
+  </div>
+
+  <!--
+  <div>
+    <span class="post-title card-title">
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+      <span class="post-date grey-text text-darken-2">{{ post.date | date_to_string }}</span>
+    </span>
+
+    <div class="post-excerpt">
+      {{ post.excerpt }}
+    </div>
+  </div>
+
+  <div class="card-action">
+    <div class="read-more">
+      <a href="{{ post.url }}">
+        {% if post.excerpt != post.content %}
+        Voir l'article complet
+        {% else %}
+        Voir la page dédiée
+        {% endif %}
+      </a>
+    </div>
+  </div>
+  -->
+
+</div>

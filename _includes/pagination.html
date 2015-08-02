@@ -1,0 +1,17 @@
+<div id="pagination">
+  {% if paginator.next_page %}
+  <a class="btn white grey-text text-darken-4 waves-effect" href="{{ site.baseurl }}/page{{paginator.next_page}}">Plus anciens</a>
+  {% else %}
+  <a class="btn disabled" href="#!">Plus anciens</a>
+  {% endif %}
+   
+  {% if paginator.previous_page %}
+  {% if paginator.page == 2 %}
+  <a class="btn white grey-text text-darken-4 waves-effect" href="/">Plus récents</a>
+  {% else %}
+  <a class="btn white grey-text text-darken-4 waves-effect" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Plus récents</a>
+  {% endif %}
+  {% else %}
+  <a class="btn disabled" href="#!">Plus récents</a>
+  {% endif %}
+</div>
