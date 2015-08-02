@@ -140,7 +140,7 @@
   border-left: 1px solid #ccc;
 }
 
-.category-index h2 { text-transform: capitalize; }
+.category-index h5 { text-transform: capitalize; }
 .category-index span.post-date {
   display: inline;
   font-size: 80%;
