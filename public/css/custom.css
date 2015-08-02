@@ -1,0 +1,9 @@
+.category-index h2 {
+  text-transform: capitalize;
+}
+
+.category-index span.post-date {
+  display: inline;
+  font-size: 85%;
+  font-style: italic;
+}
