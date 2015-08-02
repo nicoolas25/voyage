@@ -1,3 +1,10 @@
+.category-index h5 { text-transform: capitalize; }
+.category-index span.post-date {
+  display: inline;
+  font-size: 80%;
+  font-style: italic;
+}
+
 .blog-content { margin-top: 1em; }
 
 #pagination { text-align: center; }
@@ -140,9 +147,12 @@
   border-left: 1px solid #ccc;
 }
 
-.category-index h5 { text-transform: capitalize; }
-.category-index span.post-date {
-  display: inline;
-  font-size: 80%;
-  font-style: italic;
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
 }
