@@ -11,3 +11,4 @@ author:
 
 paginate: 5
 markdown: kramdown
+excerpt_separator: <!--more-->

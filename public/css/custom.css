@@ -1,9 +1,10 @@
-.category-index h2 {
-  text-transform: capitalize;
-}
-
+.category-index h2 { text-transform: capitalize; }
 .category-index span.post-date {
   display: inline;
   font-size: 85%;
   font-style: italic;
 }
+
+.posts .post { margin-bottom: 2em; }
+.posts .post .read-more { text-align: right; }
+.posts .post .read-more a { font-size: 85%; }

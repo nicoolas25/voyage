@@ -14,7 +14,16 @@ title: Accueil
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    {{ post.content }}
+    {{ post.excerpt }}
+
+    {% if post.excerpt != post.content %}
+    <div class="read-more">
+      <a href="{{ post.url }}">
+        Lire l'article complet
+      </a>
+    </div>
+    {% endif %}
+
   </div>
   {% endfor %}
 </div>
