@@ -42,13 +42,13 @@ module Blog
       end
 
       def store_path(basename)
-        "#{ROOT_DIR}/public/flickr/#{basename}/article.pstore"
+        "#{ROOT_DIR}/public/_flickr/#{basename}/article.pstore"
       end
     end
 
     def initialize(path)
       @path = path
-      @images = Dir["#{ROOT_DIR}/public/flickr/#{basename}/*.jpg"].map { |f| Image.new(self, f) }
+      @images = Dir["#{ROOT_DIR}/public/_flickr/#{basename}/*.jpg"].map { |f| Image.new(self, f) }
       @stored = false
     end
 
