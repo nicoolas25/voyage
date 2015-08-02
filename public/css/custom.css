@@ -8,3 +8,9 @@
 .posts .post { margin-bottom: 2em; }
 .posts .post .read-more { text-align: right; }
 .posts .post .read-more a { font-size: 85%; }
+.posts .post a.flickr {
+  display: block;
+  overflow: hidden;
+  max-height: 200px;
+  border-radius: 5px;
+}

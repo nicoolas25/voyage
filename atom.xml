@@ -4,7 +4,7 @@
  <title>Poux et puces</title>
  <link href="http://voyage.zemati.eu/atom.xml" rel="self"/>
  <link href="http://voyage.zemati.eu/"/>
- <updated>2015-08-02T10:56:57+02:00</updated>
+ <updated>2015-08-02T11:12:16+02:00</updated>
  <id>http://voyage.zemati.eu</id>
  <author>
    <name>Nicolas Zermati</name>
@@ -17,7 +17,7 @@
    <link href="http://voyage.zemati.eu/autriche/2015/08/12/article-avec-image.html"/>
    <updated>2015-08-12T10:08:20+02:00</updated>
    <id>http://voyage.zemati.eu/autriche/2015/08/12/article-avec-image</id>
-   <content type="html">&lt;p&gt;&lt;a href=&quot;https://www.flickr.com/gp/133618768@N02/70wd34&quot;&gt;&lt;img src=&quot;https://farm1.staticflickr.com/418/20018969580_8cb2ba0dea_c.jpg&quot; alt=&quot;image.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;a class=&quot;flickr&quot; href=&quot;https://www.flickr.com/gp/133618768@N02/70wd34&quot;&gt;&lt;img src=&quot;https://farm1.staticflickr.com/418/20018969580_8cb2ba0dea_c.jpg&quot; alt=&quot;image.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Je voudrais avoir plusieurs paragraphe dans la preview de l’article.
 Du coup voila une photo, et un texte.&lt;/p&gt;
