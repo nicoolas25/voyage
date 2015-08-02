@@ -33,15 +33,26 @@
 }
 
 .posts .post.card a.flickr { display: none; }
-
+.posts .post.card .card-image .card-title a {
+  display: block;
+  font-size: 200%;
+}
+.posts .post.card .card-image .card-title .subtitle {
+  font-size: 1rem;
+  margin-top: -20px;
+}
 .posts .post.card .card-image .card-title {
-  margin: 0.5rem;
+  width: 100%;
+  text-align: center;
+  bottom: 30px;
+  padding: 5px;
+  font-size: 1rem;
+
 }
+
+
 .posts .post.card .card-image img { margin: 0.5rem; }
-.posts .post.card .card-image a {
-  font-weight: bold;
-  font-size: 120%;
-}
+.posts .post.card .card-image a { font-size: 120%; }
 .posts .post.card .card-image .post-date {
   font-weight: bold;
   font-size: 85%;
@@ -64,15 +75,18 @@
   position: relative;
   height: 70px;
 }
-.postcard-address .post-date {
+.post.card.photo .post-date { right: 2em; }
+.postcard-address .post-date,
+.post.card .post-date {
   display: block;
+  letter-spacing: 1px;
   position: absolute;
   margin-top: 2rem;
   font-size: 10px;
-  color: #b71c1c;
   font-family: "Conv_STAMPACT", Sans-Serif;
   z-index: 10;
 }
+
 .postcard-address .post-stamp {
   display: block;
   position: absolute;
@@ -107,7 +121,7 @@
   /* font size is 14 px */
   .container { width: 40rem; }
   .posts .post.card { height: 26em; }
-  .postcard-address .post-date { margin-left: 25px; }
+  .postcard-address .post-date { margin-left: 20px; }
   .postcard-address ul.location { margin-top: 3.5em; }
   .posts .post.card .card-image img {
     height: 25rem;
@@ -119,7 +133,7 @@
   /* font size is 14.5 px */
   .container { width: 66rem; }
   .posts .post.card { height: 22em; }
-  .postcard-address .post-date { margin-left: 5px; }
+  .postcard-address .post-date { margin-left: 0px; }
   .postcard-address ul.location { margin-top: 2.5em; }
   .posts .post.card .card-image img {
     height: 21rem;
@@ -131,7 +145,7 @@
   /* font size is 15 px */
   .container { width: 74rem; }
   .posts .post.card { height: 24rem; }
-  .postcard-address .post-date { margin-left: 20px; }
+  .postcard-address .post-date { margin-left: 15px; }
   .postcard-address ul.location { margin-top: 3rem; }
   .posts .post.card .card-image img {
     height: 23rem;
