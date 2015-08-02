@@ -6,10 +6,10 @@ photo:      image.jpg
 categories: autriche
 ---
 
-{% flickr image.jpg %}
-
 Je voudrais avoir plusieurs paragraphe dans la preview de l'article.
 Du coup voila une photo, et un texte.
+
+{% flickr image.jpg %}
 
 <!--more-->
 

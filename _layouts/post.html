@@ -2,13 +2,32 @@
 layout: default
 ---
 
-<div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date_to_string }}</span>
-  {{ content }}
+<div class="post-view">
+  <div class="row">
+    <div class="col s12">
+      <div class="card">
+        <div class="card-content">
+          <span class="card-title grey-text text-darken-4">
+            {{ page.title }}
+            <span class="post-date">{{ page.date | date_to_string }}</span>
+          </span>
+          {{ content }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col s12">
+      <div class="card">
+        <div class="card-content">
+          <div id="disqus_thread"></div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
-<div id="disqus_thread"></div>
 <script type="text/javascript">
   var disqus_shortname = 'poux-et-puces';
 

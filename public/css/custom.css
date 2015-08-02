@@ -2,17 +2,40 @@
 
 #pagination { text-align: center; }
 
-.post.card a.flickr { display: none; }
+.post-view {
+  max-width: 840px;
+  margin: auto;
+  line-height: 150%;
+  font-size: 110%;
+}
+.post-view .card-content p { margin: 10px 0px; }
+.post-view .card-content .card-title { font-size: 2rem; }
+.post-view .card-content .card-title .post-date {
+  display: block;
+  float: right;
+  font-size: 1rem;
+}
+.post-view a.flickr img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+.post-view a.flickr {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
 
-.post.card .card-image .card-title {
+.posts .post.card a.flickr { display: none; }
+
+.posts .post.card .card-image .card-title {
   margin: 0.5rem;
 }
-.post.card .card-image img { margin: 0.5rem; }
-.post.card .card-image a {
+.posts .post.card .card-image img { margin: 0.5rem; }
+.posts .post.card .card-image a {
   font-weight: bold;
   font-size: 120%;
 }
-.post.card .card-image .post-date {
+.posts .post.card .card-image .post-date {
   font-weight: bold;
   font-size: 85%;
 }
@@ -76,10 +99,10 @@
 @media only screen and (min-width: 600px) {
   /* font size is 14 px */
   .container { width: 40rem; }
-  .post.card { height: 26em; }
+  .posts .post.card { height: 26em; }
   .postcard-address .post-date { margin-left: 25px; }
   .postcard-address ul.location { margin-top: 3.5em; }
-  .post.card .card-image img {
+  .posts .post.card .card-image img {
     height: 25rem;
     width: 39rem;
   }
@@ -88,10 +111,10 @@
 @media only screen and (min-width: 993px) {
   /* font size is 14.5 px */
   .container { width: 66rem; }
-  .post.card { height: 22em; }
+  .posts .post.card { height: 22em; }
   .postcard-address .post-date { margin-left: 5px; }
   .postcard-address ul.location { margin-top: 2.5em; }
-  .post.card .card-image img {
+  .posts .post.card .card-image img {
     height: 21rem;
     width: 31.2rem;
   }
@@ -100,15 +123,14 @@
 @media only screen and (min-width: 1200px) {
   /* font size is 15 px */
   .container { width: 74rem; }
-  .post.card { height: 24rem; }
+  .posts .post.card { height: 24rem; }
   .postcard-address .post-date { margin-left: 20px; }
   .postcard-address ul.location { margin-top: 3rem; }
-  .post.card .card-image img {
+  .posts .post.card .card-image img {
     height: 23rem;
     width: 35.2rem;
   }
 }
-
 
 ::-webkit-scrollbar { width: 10px; }
 ::-webkit-scrollbar-thumb { background-color: #ccc; }
