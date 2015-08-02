@@ -7,7 +7,7 @@ title: Accueil
   <div class="row">
     {% for post in paginator.posts %}
     <div class="col s12 m12 l6">
-      {% if post.with_photo %}
+      {% if post.photo %}
       {% include post_with_photo.html %}
       {% else %}
       {% include post.html %}

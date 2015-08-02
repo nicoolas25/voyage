@@ -1,31 +1,9 @@
-<div class="post card">
-
+<div class="post card rr{% random 5 %}">
   <div class="card-image">
-    <img src="http://materializecss.com/images/sample-1.jpg">
-    <span class="post-title card-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-      <span class="post-date">{{ post.date | date_to_string }}</span>
+    <img src="{% photo_url %}">
+    <span class="card-title">
+      <a class="grey lighten-4" href="{{ post.url }}"> {{ post.title }} </a>
+      <span class="post-date grey lighten-4 grey-text text-darken-2"> {{ post.date | date_to_string }} </span>
     </span>
   </div>
-
-  <div class="card-content">
-    <div class="post-excerpt">
-      {{ post.excerpt }}
-    </div>
-  </div>
-
-  <div class="card-action">
-    <div class="read-more">
-      <a href="{{ post.url }}">
-        {% if post.excerpt != post.content %}
-        Voir l'article complet
-        {% else %}
-        Voir la page dédiée
-        {% endif %}
-      </a>
-    </div>
-  </div>
-
 </div>

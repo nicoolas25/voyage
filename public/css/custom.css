@@ -4,6 +4,19 @@
 
 .post.card a.flickr { display: none; }
 
+.post.card .card-image .card-title {
+  margin: 0.5rem;
+}
+.post.card .card-image img { margin: 0.5rem; }
+.post.card .card-image a {
+  font-weight: bold;
+  font-size: 120%;
+}
+.post.card .card-image .post-date {
+  font-weight: bold;
+  font-size: 85%;
+}
+
 .postcard { height: 100%; width: 100%; }
 .postcard .col { height: 100%; }
 .postcard-body {
@@ -66,6 +79,10 @@
   .post.card { height: 26em; }
   .postcard-address .post-date { margin-left: 25px; }
   .postcard-address ul.location { margin-top: 3.5em; }
+  .post.card .card-image img {
+    height: 25rem;
+    width: 39rem;
+  }
 }
 
 @media only screen and (min-width: 993px) {
@@ -74,14 +91,22 @@
   .post.card { height: 22em; }
   .postcard-address .post-date { margin-left: 5px; }
   .postcard-address ul.location { margin-top: 2.5em; }
+  .post.card .card-image img {
+    height: 21rem;
+    width: 31.2rem;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
   /* font size is 15 px */
   .container { width: 74rem; }
-  .post.card { height: 24em; }
+  .post.card { height: 24rem; }
   .postcard-address .post-date { margin-left: 20px; }
-  .postcard-address ul.location { margin-top: 3em; }
+  .postcard-address ul.location { margin-top: 3rem; }
+  .post.card .card-image img {
+    height: 23rem;
+    width: 35.2rem;
+  }
 }
 
 
