@@ -4,7 +4,7 @@
  <title>Poux et puces</title>
  <link href="http://voyage.zemati.eu/atom.xml" rel="self"/>
  <link href="http://voyage.zemati.eu/"/>
- <updated>2015-08-02T11:44:30+02:00</updated>
+ <updated>2015-08-02T23:56:06+02:00</updated>
  <id>http://voyage.zemati.eu</id>
  <author>
    <name>Nicolas Zermati</name>
@@ -17,10 +17,10 @@
    <link href="http://voyage.zemati.eu/autriche/2015/08/12/article-avec-image.html"/>
    <updated>2015-08-12T10:08:20+02:00</updated>
    <id>http://voyage.zemati.eu/autriche/2015/08/12/article-avec-image</id>
-   <content type="html">&lt;p&gt;&lt;a class=&quot;flickr&quot; href=&quot;https://www.flickr.com/gp/133618768@N02/70wd34&quot;&gt;&lt;img src=&quot;https://farm1.staticflickr.com/418/20018969580_8cb2ba0dea_c.jpg&quot; alt=&quot;image.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Je voudrais avoir plusieurs paragraphe dans la preview de l’article.
+   <content type="html">&lt;p&gt;Je voudrais avoir plusieurs paragraphe dans la preview de l’article.
 Du coup voila une photo, et un texte.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;flickr&quot; href=&quot;https://www.flickr.com/gp/133618768@N02/70wd34&quot;&gt;&lt;img src=&quot;https://farm1.staticflickr.com/418/20018969580_8cb2ba0dea_c.jpg&quot; alt=&quot;image.jpg&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -34,6 +34,8 @@ Du coup voila une photo, et un texte.&lt;/p&gt;
    <updated>2015-08-01T10:08:25+02:00</updated>
    <id>http://voyage.zemati.eu/espagne/france/2015/08/01/welcome-to-jekyll</id>
    <content type="html">&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;!--more--&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
@@ -59,9 +61,9 @@ Du coup voila une photo, et un texte.&lt;/p&gt;
    <id>http://voyage.zemati.eu/france/covoiturage/2015/07/01/welcome-to-jekyll-2</id>
    <content type="html">&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
 &lt;!--more--&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;

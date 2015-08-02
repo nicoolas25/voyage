@@ -1,16 +1,158 @@
-.category-index h2 { text-transform: capitalize; }
+.category-index h5 { text-transform: capitalize; }
 .category-index span.post-date {
   display: inline;
-  font-size: 85%;
+  font-size: 80%;
   font-style: italic;
 }
 
-.posts .post { margin-bottom: 2em; }
-.posts .post .read-more { text-align: right; }
-.posts .post .read-more a { font-size: 85%; }
-.posts .post a.flickr {
+.blog-content { margin-top: 1em; }
+
+#pagination { text-align: center; }
+
+.post-view {
+  max-width: 840px;
+  margin: auto;
+  line-height: 150%;
+  font-size: 110%;
+}
+.post-view .card-content p { margin: 10px 0px; }
+.post-view .card-content .card-title { font-size: 2rem; }
+.post-view .card-content .card-title .post-date {
   display: block;
-  overflow: hidden;
-  max-height: 200px;
+  float: right;
+  font-size: 1rem;
+}
+.post-view a.flickr img {
+  max-width: 100%;
   border-radius: 5px;
+}
+.post-view a.flickr {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+.posts .post.card a.flickr { display: none; }
+
+.posts .post.card .card-image .card-title {
+  margin: 0.5rem;
+}
+.posts .post.card .card-image img { margin: 0.5rem; }
+.posts .post.card .card-image a {
+  font-weight: bold;
+  font-size: 120%;
+}
+.posts .post.card .card-image .post-date {
+  font-weight: bold;
+  font-size: 85%;
+}
+
+.postcard { height: 100%; width: 100%; }
+.postcard .col { height: 100%; }
+.postcard-body {
+  position: relative;
+  border-right: 1px solid #9e9e9e;
+}
+.postcard-body .read-more {
+  position: absolute;
+  top: 100%;
+  right: 0px;
+  margin-right: 1em;
+  margin-top: -2em;
+}
+.postcard-address .header {
+  position: relative;
+  height: 70px;
+}
+.postcard-address .post-date {
+  display: block;
+  position: absolute;
+  margin-top: 2rem;
+  font-size: 10px;
+  color: #b71c1c;
+  font-family: "Conv_STAMPACT", Sans-Serif;
+  z-index: 10;
+}
+.postcard-address .post-stamp {
+  display: block;
+  position: absolute;
+  right: 0px;
+  height: 70px;
+  width: 55px;
+  background-image: url("/public/timbres-vert.jpg");
+  background-size: 100% 100%;
+  z-index: 0;
+}
+.postcard-address ul.location { margin-left: 20px; }
+.postcard-address ul.location li {
+  margin-top: 1em;
+  width: 100%;
+  border-bottom: 1px solid #9e9e9e;
+  text-align: center;
+}
+
+.rr0 { transform: none;             }
+.rr1 { transform: rotate( 1.25deg); }
+.rr2 { transform: rotate(-1.25deg); }
+.rr3 { transform: rotate( 0.75deg); }
+.rr4 { transform: rotate(-0.75deg); }
+
+.rr5 { transform: none;             }
+.rr6 { transform: rotate( 3.00deg); }
+.rr7 { transform: rotate(-3.00deg); }
+.rr8 { transform: rotate( 1.75deg); }
+.rr9 { transform: rotate(-1.75deg); }
+
+@media only screen and (min-width: 600px) {
+  /* font size is 14 px */
+  .container { width: 40rem; }
+  .posts .post.card { height: 26em; }
+  .postcard-address .post-date { margin-left: 25px; }
+  .postcard-address ul.location { margin-top: 3.5em; }
+  .posts .post.card .card-image img {
+    height: 25rem;
+    width: 39rem;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  /* font size is 14.5 px */
+  .container { width: 66rem; }
+  .posts .post.card { height: 22em; }
+  .postcard-address .post-date { margin-left: 5px; }
+  .postcard-address ul.location { margin-top: 2.5em; }
+  .posts .post.card .card-image img {
+    height: 21rem;
+    width: 31.2rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /* font size is 15 px */
+  .container { width: 74rem; }
+  .posts .post.card { height: 24rem; }
+  .postcard-address .post-date { margin-left: 20px; }
+  .postcard-address ul.location { margin-top: 3rem; }
+  .posts .post.card .card-image img {
+    height: 23rem;
+    width: 35.2rem;
+  }
+}
+
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-thumb { background-color: #ccc; }
+::-webkit-scrollbar-thumb:hover { background-color: #aaa; }
+::-webkit-scrollbar-track {
+  background-color: #eaeaea;
+  border-left: 1px solid #ccc;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
 }
