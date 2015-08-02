@@ -33,23 +33,19 @@
 }
 
 .posts .post.card a.flickr { display: none; }
+.posts .post.card .card-image .card-title .subtitle { font-size: 1rem; }
 .posts .post.card .card-image .card-title a {
   display: block;
-  font-size: 200%;
-}
-.posts .post.card .card-image .card-title .subtitle {
-  font-size: 1rem;
-  margin-top: -20px;
+  font-size: 24px;
 }
 .posts .post.card .card-image .card-title {
   width: 100%;
   text-align: center;
-  bottom: 30px;
+  bottom: 40px;
   padding: 5px;
   font-size: 1rem;
 
 }
-
 
 .posts .post.card .card-image img { margin: 0.5rem; }
 .posts .post.card .card-image a { font-size: 120%; }
