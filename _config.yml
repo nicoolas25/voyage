@@ -9,6 +9,6 @@ author:
   name: Nicolas Zermati
   email: nicoolas25@gmail.com
 
-paginate: 5
+paginate: 10
 markdown: kramdown
 excerpt_separator: <!--more-->
