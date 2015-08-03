@@ -21,7 +21,7 @@ module Jekyll
       end
       raise "Image '#{@title}' not found!" unless image
 
-      %{<a class="flickr" href="#{article.flickr_url}"><img src="#{image.url}" alt="#{@title}"></a>}
+      %{<a class="flickr" target="_blank" href="#{article.flickr_url}"><img src="#{image.url}" alt="#{@title}"></a>}
     end
   end
 end
