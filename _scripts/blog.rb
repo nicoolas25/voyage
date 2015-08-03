@@ -24,7 +24,7 @@ module Blog
         spath = store_path(basename)
         if File.exist?(spath)
           store = PStore.new(spath)
-          store.transaction(true) { store[:article] }
+          store.transaction(true) { store[:article] }.tap(&:refresh!)
         else
           new(path)
         end
@@ -48,7 +48,7 @@ module Blog
 
     def initialize(path)
       @path = path
-      @images = Dir["#{ROOT_DIR}/public/_flickr/#{basename}/*.jpg"].map { |f| Image.new(self, f) }
+      @images = Dir["#{ROOT_DIR}/public/_flickr/#{basename}/*.{jpg,JPG}"].map { |f| Image.new(self, f) }
       @stored = false
     end
 
@@ -60,6 +60,21 @@ module Blog
       @images.map(&:add_to_album!)
       flickr_url
       store!
+    end
+
+    def refresh!
+      new_paths = Dir["#{ROOT_DIR}/public/_flickr/#{basename}/*.{jpg,JPG}"].reject do |path|
+        @images.find { |image| image.basename == File.basename(path) }
+      end
+      if new_paths.any?
+        new_paths.each do |path|
+          @images << Image.new(self, path).tap do |image|
+            image.sync!
+            image.add_to_album!
+          end
+        end
+        self.class.store(self)
+      end
     end
 
     def flickr_url
