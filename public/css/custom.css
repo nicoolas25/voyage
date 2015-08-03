@@ -47,7 +47,10 @@
 
 }
 
-.posts .post.card .card-image img { margin: 0.5rem; }
+.posts .post.card .card-image img {
+  margin: 0.5rem;
+  border-radius: 2px;
+}
 .posts .post.card .card-image a { font-size: 120%; }
 .posts .post.card .card-image .post-date {
   font-weight: bold;
