@@ -15,7 +15,8 @@
   line-height: 150%;
   font-size: 110%;
 }
-.post-view .card-content p { margin: 10px 0px; }
+.post-view .card-content p,
+.card .card-content .post-excerpt p { margin: 10px 0px; }
 .post-view .card-content .card-title { font-size: 2rem; }
 .post-view .card-content .card-title .post-date {
   display: block;
@@ -169,3 +170,6 @@ body {
 main {
   flex: 1 0 auto;
 }
+
+.post-view .card-content ul { margin-left: 2em; }
+.post-view .card-content ul li { list-style-type: disc; }
