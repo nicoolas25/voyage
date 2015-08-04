@@ -1,4 +1,6 @@
 _site
 .sass-cache
 _flickr.yml
-public/_flickr
+public/_flickr/**/*.pstore
+public/_flickr/**/*.jpg
+public/_flickr/**/*.JPG

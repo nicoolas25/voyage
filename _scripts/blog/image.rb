@@ -5,6 +5,7 @@ module Blog
 
     def self.download(article, name:, url:, flickr_id:)
       path = "#{article.image_dir}/#{name}"
+      puts "  downloading #{name} from Flickr..."
       File.open(path, "wb") { |f| f.write(open(url).read) }
       new(article, path, flickr_id)
     end
