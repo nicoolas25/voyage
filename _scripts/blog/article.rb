@@ -118,7 +118,6 @@ module Blog
           name: photo["title"],
           url: photo["url_o"])
       end
-      require "pry" ; binding.pry
     end
 
     def export_locally_new_images
