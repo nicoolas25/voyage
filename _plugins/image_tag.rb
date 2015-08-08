@@ -10,11 +10,9 @@ module Jekyll
     end
 
     def render(context)
-      Blog::USER ||= Blog.auth("#{Blog::ROOT_DIR}/_flickr.yml")
-
       article_path = context["page"]["path"]
-      article = Blog::Article.fetch(article_path)
-      article.sync!
+      Blog::USER ||= Blog.auth("#{Blog::ROOT_DIR}/_flickr.yml")
+      article = Blog::ArticleCache.fetch(article_path)
 
       image = article.images.find do |image|
         image.basename == @title

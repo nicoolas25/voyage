@@ -1,4 +1,5 @@
 require "pstore"
+require_relative "article_cache"
 
 module Blog
   class Article
@@ -27,18 +28,20 @@ module Blog
       end
 
       def store(instance)
-        store = PStore.new(store_path(instance.basename))
+        spath = store_path(instance.basename)
+        store = PStore.new(spath)
         store.transaction { store[:article] = instance }
+        FileUtils.touch(spath)
+      end
+
+      def store_path(basename)
+        "#{ROOT_DIR}/public/_flickr/#{basename}/_article.pstore"
       end
 
       private
 
       def candidates
         @candidates ||= Dir["#{ROOT_DIR}/_posts/*.markdown"]
-      end
-
-      def store_path(basename)
-        "#{ROOT_DIR}/public/_flickr/#{basename}/article.pstore"
       end
     end
 
@@ -85,6 +88,12 @@ module Blog
 
     def image_dir
       "#{ROOT_DIR}/public/_flickr/#{basename}"
+    end
+
+    def fresh?
+      spath = self.class.store_path(basename)
+      last_image_at = image_paths.map { |path| File.ctime(path) }.max
+      File.ctime(spath) > last_image_at
     end
 
     private
