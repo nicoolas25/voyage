@@ -51,7 +51,7 @@ jekyll build -d "$TARGET"
 echo "Publishing the content by pushing it to github..."
 cd "$TARGET"
 assert_git_branch_name_is "gh-pages"
-git add .
+git add --all .
 timestamp=$(date "+%Y-%m-%d %H:%M:%S")
 git ci -m "$last_commit - published at $timestamp"
 git push
