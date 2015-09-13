@@ -48,7 +48,7 @@ Nous arrivons finalement tout en bas. Enfin !
 
 ...
 
-Pile au moment où un orage éclate ! On n'aurait voulu le faire, on aurait pas réussi. 
+Pile au moment où un orage éclate ! On n'aurait voulu le faire, on n'aurait pas réussi. 
 
 
 {% flickr DSC_0100.JPG %}
