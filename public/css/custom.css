@@ -91,10 +91,6 @@
   display: block;
   position: absolute;
   right: 0px;
-  height: 70px;
-  width: 55px;
-  background-image: url("/public/timbres-vert.jpg");
-  background-size: 100% 100%;
   z-index: 0;
 }
 .postcard-address ul.location { margin-left: 20px; }
@@ -116,6 +112,14 @@
 .rr7 { transform: rotate(-3.00deg); }
 .rr8 { transform: rotate( 1.75deg); }
 .rr9 { transform: rotate(-1.75deg); }
+
+.rr10 { transform: rotate(-25.00deg); }
+.rr11 { transform: rotate(-28.00deg); }
+.rr12 { transform: rotate(-22.00deg); }
+.rr13 { transform: rotate(-23.25deg); }
+.rr14 { transform: rotate(-26.75deg); }
+
+
 
 @media only screen and (min-width: 600px) {
   /* font size is 14 px */

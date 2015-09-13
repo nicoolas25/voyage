@@ -14,8 +14,10 @@
 
     <div class="col s5 postcard-address">
       <div class="header">
-        <span class="post-date grey-text test-darken-2 rr{% random 5 5 %}">{{ post.date | date_to_string }}</span>
-        <span class="post-stamp rr{% random 5 5 %}"></span>
+        <span class="post-date grey-text test-darken-2 rr{% random 5 10 %}">{{ post.date | date_to_string }}</span>
+        <span class="post-stamp rr{% random 5 5 %}">
+          <img src="/public/{{ post.stamp }}" height="70px" />
+        </span>
       </div>
       <ul class="location">
         <li> {{ post.location[0] }} </li>
