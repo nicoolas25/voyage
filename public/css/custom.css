@@ -1,5 +1,6 @@
 .category-index h5 { text-transform: capitalize; }
-.category-index span.post-date {
+.category-index span.post-date,
+.category-index span.post-author {
   display: inline;
   font-size: 80%;
   font-style: italic;
@@ -30,6 +31,13 @@
   display: block;
   text-align: center;
   width: 100%;
+}
+#post-view .author {
+  display: inline-block;
+  width: 100%;
+  margin-top: 2em;
+  text-align: right;
+  font-style: italic;
 }
 
 .posts .post.card a.flickr { display: none; }
