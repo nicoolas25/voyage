@@ -21,7 +21,7 @@
     type="text/css"
     rel="stylesheet"
     media="screen,projection"
-    href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css"/>
+    href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.2/css/materialize.min.css"/>
   <link
     type="text/css"
     rel="stylesheet"
@@ -46,63 +46,74 @@
 
   <body class="grey lighten-4">
 
-    <header>
-  <nav class="light-blue lighten-2">
-    <div class="nav-wrapper">
-      <a href="/" class="brand-logo center">Puces Poux Sagesse</a>
-      <a href="#" data-activates="side-nav" class="button-collapse waves-effect waves-light">
-        <i class="material-icons">menu</i>
-      </a>
-
-      <ul id="nav-mobile" class="left hide-on-med-and-down">
-        
-        
-        <li class="">
-          <a class="waves-effect waves-light" href="/about/">
-            À propos
-          </a>
-        </li>
-        
-        <li class="">
-          <a class="waves-effect waves-light" href="/index/">
-            Liste des billets
-          </a>
-        </li>
-        
-      </ul>
-
-      <ul class="side-nav" id="side-nav">
-        
-        
-        <li class="">
-          <a class="waves-effect waves-light" href="/about/">
-            À propos
-          </a>
-        </li>
-        
-        <li class="">
-          <a class="waves-effect waves-light" href="/index/">
-            Liste des billets
-          </a>
-        </li>
-        
-      </ul>
-
-    </div>
-  </nav>
-</header>
-
-
     <main>
       <div class="container">
+        <div class="row" id="header">
+  <div class="col s12">
+    <div class="card">
+
+      <div class="card-image">
+        <img />
+      </div>
+
+      <nav class="white">
+        <div class="nav-wrapper">
+          <a href="#" data-activates="side-nav" class="button-collapse waves-effect waves-light" >
+            <i class="material-icons">menu</i>
+          </a>
+
+          <ul id="nav-mobile" class="left hide-on-med-and-down">
+            
+            
+            <li class="">
+              <a class="waves-effect waves-light" href="/about/">
+                À propos
+              </a>
+            </li>
+            
+            <li class="">
+              <a class="waves-effect waves-light" href="/index/">
+                Liste des billets
+              </a>
+            </li>
+            
+            
+          </ul>
+
+          <ul class="side-nav" id="side-nav">
+            
+            
+            <li class="">
+              <a class="waves-effect waves-light" href="/about/">
+                À propos
+              </a>
+            </li>
+            
+            <li class="">
+              <a class="waves-effect waves-light" href="/index/">
+                Liste des billets
+              </a>
+            </li>
+            
+            
+          </ul>
+        </div>
+      </nav>
+
+    </div>
+  </div>
+</div>
+
+
+
         <div class="blog-content">
           <div class="posts">
   <div class="row">
     
     <div class="col s12 m12 l6">
       
-      <div class="post photo card rr0">
-  <span class="post-date grey-text text-lighten-4 rr6"> 24 Jul 2015 </span>
+      <div class="post photo card rr1">
+  <span class="post-date grey-text text-lighten-4 rr9"> 24 Jul 2015 </span>
   <div class="card-image">
     <img src="https://farm4.staticflickr.com/3818/20218855259_c52106f872_c.jpg">
     <span class="card-title white">
@@ -119,7 +130,7 @@
     
     <div class="col s12 m12 l6">
       
-      <div class="post card rr4">
+      <div class="post card rr1">
   <div class="card-content postcard">
     <div class="col s7 postcard-body">
       <span class="post-title card-title">
@@ -140,8 +151,8 @@ Et bien pas cette fois !</p>
 
     <div class="col s5 postcard-address">
       <div class="header">
-        <span class="post-date grey-text test-darken-2 rr10">16 Jul 2015</span>
-        <span class="post-stamp rr8">
+        <span class="post-date grey-text test-darken-2 rr13">16 Jul 2015</span>
+        <span class="post-stamp rr9">
           <img src="/public/timbres-sicile.png" height="70px" />
         </span>
       </div>
@@ -151,6 +162,8 @@ Et bien pas cette fois !</p>
         <li>  </li>
       </ul>
     </div>
+
+    <div class="clear"></div>
   </div>
 </div>
 
@@ -195,7 +208,7 @@ Et bien pas cette fois !</p>
 
 <!-- MaterializeCSS -->
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.2/js/materialize.min.js"></script>
 
 <script>
   $( document ).ready(function(){

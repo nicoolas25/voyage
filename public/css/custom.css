@@ -9,25 +9,24 @@
 
 #pagination { text-align: center; }
 
-.post-view {
-  max-width: 840px;
+#post-view {
   margin: auto;
   line-height: 150%;
   font-size: 110%;
 }
-.post-view .card-content p,
+#post-view .card-content p,
 .card .card-content .post-excerpt p { margin: 10px 0px; }
-.post-view .card-content .card-title { font-size: 2rem; }
-.post-view .card-content .card-title .post-date {
+#post-view .card-content .card-title { font-size: 2rem; }
+#post-view .card-content .card-title .post-date {
   display: block;
   float: right;
   font-size: 1rem;
 }
-.post-view a.flickr img {
+#post-view a.flickr img {
   max-width: 100%;
   border-radius: 5px;
 }
-.post-view a.flickr {
+#post-view a.flickr {
   display: block;
   text-align: center;
   width: 100%;
@@ -48,36 +47,27 @@
 
 }
 
-.posts .post.card .card-image img {
-  margin: 0.5rem;
-  border-radius: 2px;
-}
+.posts .post.card.photo { padding: 0.5em; }
+.posts .post.card .card-image img { border-radius: 2px; }
 .posts .post.card .card-image a { font-size: 120%; }
 .posts .post.card .card-image .post-date {
   font-weight: bold;
   font-size: 85%;
 }
 
-.postcard { height: 100%; width: 100%; }
-.postcard .col { height: 100%; }
-.postcard-body {
+.posts .postcard { height: 100%; width: 100%; }
+.posts .postcard .col { height: 100%; }
+.posts .postcard-body {
   position: relative;
   border-right: 1px solid #9e9e9e;
-}
-.postcard-body .read-more {
-  position: absolute;
-  top: 100%;
-  right: 0px;
-  margin-right: 1em;
-  margin-top: -2em;
 }
 .postcard-address .header {
   position: relative;
   height: 70px;
 }
-.post.card.photo .post-date { right: 2em; }
-.postcard-address .post-date,
-.post.card .post-date {
+.posts .post.card.photo .post-date { right: 2em; }
+.posts .postcard-address .post-date,
+.posts .post.card .post-date {
   display: block;
   letter-spacing: 1px;
   position: absolute;
@@ -87,14 +77,14 @@
   z-index: 10;
 }
 
-.postcard-address .post-stamp {
+.posts .postcard-address .post-stamp {
   display: block;
   position: absolute;
   right: 0px;
   z-index: 0;
 }
-.postcard-address ul.location { margin-left: 20px; }
-.postcard-address ul.location li {
+.posts .postcard-address ul.location { margin-left: 20px; }
+.posts .postcard-address ul.location li {
   margin-top: 1em;
   width: 100%;
   border-bottom: 1px solid #9e9e9e;
@@ -119,26 +109,38 @@
 .rr13 { transform: rotate(-23.25deg); }
 .rr14 { transform: rotate(-26.75deg); }
 
-
+#header .card-image img { content:url("/public/header-small.jpg"); }
+#header a.button-collapse {
+  left: 50%;
+  margin-left: -17.5px;
+}
 
 @media only screen and (min-width: 600px) {
   /* font size is 14 px */
   .container { width: 40rem; }
   .posts .post.card { height: 26em; }
-  .postcard-address .post-date { margin-left: 20px; }
-  .postcard-address ul.location { margin-top: 3.5em; }
+  .posts .postcard-address .post-date { margin-left: 20px; }
+  .posts .postcard-address ul.location { margin-top: 3.5em; }
   .posts .post.card .card-image img {
     height: 25rem;
     width: 39rem;
   }
+  .postcard-body .read-more {
+    position: absolute;
+    top: 100%;
+    right: 0px;
+    margin-right: 1em;
+    margin-top: -2em;
+  }
 }
 
 @media only screen and (min-width: 993px) {
+  #header .card-image img { content:url("/public/header.jpg"); }
   /* font size is 14.5 px */
   .container { width: 66rem; }
   .posts .post.card { height: 22em; }
-  .postcard-address .post-date { margin-left: 0px; }
-  .postcard-address ul.location { margin-top: 2.5em; }
+  .posts .postcard-address .post-date { margin-left: 0px; }
+  .posts .postcard-address ul.location { margin-top: 2.5em; }
   .posts .post.card .card-image img {
     height: 21rem;
     width: 31.2rem;
@@ -149,11 +151,14 @@
   /* font size is 15 px */
   .container { width: 74rem; }
   .posts .post.card { height: 24rem; }
-  .postcard-address .post-date { margin-left: 15px; }
-  .postcard-address ul.location { margin-top: 3rem; }
+  .posts .postcard-address .post-date { margin-left: 15px; }
+  .posts .postcard-address ul.location { margin-top: 3rem; }
   .posts .post.card .card-image img {
     height: 23rem;
     width: 35.2rem;
+  }
+  #post-view .post .card-content {
+    padding: 2em 4em;
   }
 }
 
@@ -175,5 +180,11 @@ main {
   flex: 1 0 auto;
 }
 
-.post-view .card-content ul { margin-left: 2em; }
-.post-view .card-content ul li { list-style-type: disc; }
+div.clear { clear: both; }
+
+#post-view .card-content ul { margin-left: 2em; }
+#post-view .card-content ul li { list-style-type: disc; }
+
+#header nav { box-shadow: none; }
+#header nav a { color: rgba(0,0,0,0.87); }
+#header nav, #header nav li.active { border-radius: 0 0 2px 2px; }
