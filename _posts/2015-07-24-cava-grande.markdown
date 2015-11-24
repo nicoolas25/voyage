@@ -68,7 +68,7 @@ Arrivés en haut nous escaladons le portillon. Le garde n'est plus là. Un souci
 
 
 La pluie s'arrête pendant notre ballade sur la route.
-Nous croisons 2 camions avec de grox tuyaux, comme pour pomper l'eau lors des innondations. L'orage a du faire des ravages quelque part.
+Nous croisons 2 camions avec de gros tuyaux, comme pour pomper l'eau lors des innondations. L'orage a du faire des ravages quelque part.
 
 Ah ben oui, précisément là où nous étions garés !! Le champ est innondé, bon nombre de voitures sont embourbées. Nous allons devoir pousser. Finalement c'est un professionnel qui sortira la voiture de ce bourbier, non sans dégueulasser l'intérieur (l'extérieur aussi bien sûr, mais c'était inévitable). Nicolas se retrouvera couvert de boue.
 
