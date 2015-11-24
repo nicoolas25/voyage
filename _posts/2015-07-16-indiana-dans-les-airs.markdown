@@ -36,7 +36,7 @@ ce temps là pas de problème pour Marion, ni pour le chien ni même pour la val
 Le chien ne passe pas avec les valises. Enfin c'est ce qu'on croyais... Puisque
 la caisse ne rentre pas sur le tapis à bagage classique, il suffit d'utiliser le
 tapis à bagage encombrant. Telle une poussette, un siège auto ou une planche de
-surf notre bébé a disparu sur le tapis roulant. Bonjour l'inquiétude lorsque le
+surf, notre boule de poils a disparu sur le tapis roulant. Bonjour l'inquiétude lorsque le
 personnel de l'aéroport ne semble rien savoir, manque de faire tomber la caisse
 du tapis roulant ou manque d'amabilité. Si c'est comme ça qu'on traite les
 voyageurs, comment traitent-ils les chiens...
@@ -52,7 +52,7 @@ l'embarquement avant l'heure du décollage et sans payer de supplément bagage,
 youpi !
 
 Sauf qu'entre temps j'ai entendu le nom de Marion être appellé au micro de
-l'aéroport. Petit coup de panique il a fallut courrir de guichets en guichets
+l'aéroport. Petit coup de panique il a fallut courir de guichets en guichets
 pour atterir à la fouille de la caisse du chien. Seule Marion a pu rentrer pour
 faire sortir Indiana de la caisse et permettre au _douanier_ de fouiller la cage.
 Bien sûr on ne nous a pas dit tout de suite ce qui n'allait pas avec le chien

@@ -47,7 +47,7 @@
 
 }
 
-.posts .post.card.photo { padding: 0.5em; }
+.posts .post.card.photo .card-image { padding: 0.5em; }
 .posts .post.card .card-image img { border-radius: 2px; }
 .posts .post.card .card-image a { font-size: 120%; }
 .posts .post.card .card-image .post-date {
