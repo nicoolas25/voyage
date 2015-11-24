@@ -5,7 +5,7 @@ date:       2015-07-24 08:08:20
 photo:      DSC_0097.JPG
 subtitle:   Canyon diluvien • Sicile
 categories: italie
-Auteur : Marion
+author:     Marion
 ---
 
 Aujourd'hui c'est LA journée rando du séjour. Nous visons Cava Grande, un canyon verdoyant dont nous avons entendu parlé à plusieurs reprises. Il y a des lacs naturels formés par la rivière et dont les eaux sont transparentes. Ce sera top, forcément.
