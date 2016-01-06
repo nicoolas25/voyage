@@ -4,8 +4,9 @@ title: À propos
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Ceci est notre blog voyage. Nous partons pendant plusieurs mois autour de l'Europe, sans itinéraire.
+Grâce à la générosité de nos proches lors de notre mariage, nous pouvons réaliser ce projet. Merci à eux.
+Nous allons vous tenir informé de nos aventures, qu'elles soient bonnes ou mauvaises, ici.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Le nom du blog vient d'un vieux Sicilien raconté par mamie et traduit par nous :
+<em>« Qui voyage récolte 3 choses : des poux, des puces et du savoir »</em>.
