@@ -36,7 +36,11 @@ Lorsque nous n'aidons pas à la maison, le temps se divise en repos et en explor
 Il y a de belles promenades à faire dans les montagnes avoisinantes, sur la plage, etc. Voici une
 vidéo de l'une de ces randonnées.
 
-<center><iframe allowfullscreen="" frameborder="0" height="480" src="http://www.youtube.com/embed/44TvwY7fgTw?rel=0" width="640"></iframe></center>
+<center>
+  <div class='embed-container'>
+    <iframe src='https://www.youtube.com/embed/44TvwY7fgTw' frameborder='0' allowfullscreen></iframe>
+  </div>
+</center>
 
 Le centre de Marbella est très joli. Les rues sont étroites, piétonnes et très fleuries. Les gens
 que nous avons croisés étaient principalement des touristes surement, comme nous, à la recherche
