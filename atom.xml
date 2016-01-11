@@ -4,7 +4,7 @@
  <title>Puces Poux Savoir</title>
  <link href="http://voyage.zemati.eu/atom.xml" rel="self"/>
  <link href="http://voyage.zemati.eu/"/>
- <updated>2016-01-11T18:15:34+01:00</updated>
+ <updated>2016-01-11T18:51:49+01:00</updated>
  <id>http://voyage.zemati.eu</id>
  <author>
    <name>Nicolas Zermati</name>
@@ -45,7 +45,11 @@ et beaucoup plus calme qu’Indiana au quotidien. J’espère qu’Indiana en pr
 Il y a de belles promenades à faire dans les montagnes avoisinantes, sur la plage, etc. Voici une
 vidéo de l’une de ces randonnées.&lt;/p&gt;
 
-&lt;center&gt;&lt;iframe allowfullscreen=&quot;&quot; frameborder=&quot;0&quot; height=&quot;480&quot; src=&quot;http://www.youtube.com/embed/44TvwY7fgTw?rel=0&quot; width=&quot;640&quot;&gt;&lt;/iframe&gt;&lt;/center&gt;
+&lt;center&gt;
+  &lt;div class=&quot;embed-container&quot;&gt;
+    &lt;iframe src=&quot;https://www.youtube.com/embed/44TvwY7fgTw&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
+&lt;/center&gt;
 
 &lt;p&gt;Le centre de Marbella est très joli. Les rues sont étroites, piétonnes et très fleuries. Les gens
 que nous avons croisés étaient principalement des touristes surement, comme nous, à la recherche
