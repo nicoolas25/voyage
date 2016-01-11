@@ -13,5 +13,5 @@ Le nom du blog vient d'un vieux proverbe sicilien cité par mamie Anna et que no
 
 <br/>
 
-<b>Note</b> : sur les billets avec photos, n'hésitez pas a acceder à la galerie associée en cliquant sur une photo.
+<b>Note</b> : sur les billets avec photos, n'hésitez pas à accéder à la galerie associée en cliquant sur une photo.
 En général, il y en a d'autres en plus de celles présentes dans l'article.
