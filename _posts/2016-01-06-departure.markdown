@@ -57,7 +57,7 @@ et avoir de la place dans la voiture c'est aussi très agréable.
 
 Hier en fin d'après midi, nous sommes arrivés à Marbella sous la pluie. C'était la fête des rois mages
 en Espagne, un peu comme Noël. Lorsque nous sommes arrivés, il était l'heure d'une sorte de défilé
-en ville : plein de chars qui défilaient,avec des enfants jettant des poignées de bonbons sur la foule.
+en ville : plein de chars qui défilaient, avec des enfants jettant des poignées de bonbons sur la foule.
 
 Les jours précédents nous avaient bien fatigué. La voiture et le stress des rendez-vous, que ce soit pour
 l'hébergement où bien pour le covoiturage, ça use. Après le défilé, nous avons donc filé chez nos hôtesses
@@ -65,6 +65,6 @@ qui nous attendaient. Nous sommes arrivés là bas vers 19h30 et elles avaient d
 pleins de restes délicieux. Nous avons donc discuté un peu, laissé les chiens faire connaissance puis nous
 sommes allé dormir.
 
-Aujourd'hui nous avons fait une balade sur la plage,là je suis en short sur la terrasse et Marion fait la sieste.
+Aujourd'hui nous avons fait une balade sur la plage, là je suis en short sur la terrasse et Marion fait la sieste.
 On peut dire que les choses se calment enfin. On prendra surement un peu de temps pour vous expliquer
 comment ça se passe avec nos hôtesses dans un prochain billet.
