@@ -19,7 +19,7 @@ module Blog
       def fetch(path)
         basename = File.basename(path, ".markdown")
         spath = store_path(basename)
-        if File.exist?(spath)
+        if File.exist?(spath) && !Blog.offline
           store = PStore.new(spath)
           store.transaction(true) { store[:article] }.tap(&:refresh!)
         else
@@ -54,6 +54,7 @@ module Blog
     end
 
     def sync!
+      raise "Can't do this offline" if Blog.offline
       return if @stored || !File.directory?(image_dir)
       puts "Syncing #{basename} article..."
       @album_id ||= find_album
@@ -66,6 +67,7 @@ module Blog
     end
 
     def refresh!
+      raise "Can't do this offline" if Blog.offline
       import_remote_images
       export_locally_new_images
       store!
@@ -77,6 +79,7 @@ module Blog
     end
 
     def flickr_url
+      return "Offline" if Blog.offline
       return unless @album_id
       args = { set: @album_id, is_private: 1, is_family: 1, is_friend: 1 }
       @flickr_url ||= flickr.call("flickr.sharing.createGuestpass", args)["url"]

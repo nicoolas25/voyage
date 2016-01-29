@@ -3,6 +3,8 @@ require "flickraw"
 
 module Blog
   def self.auth(config_filepath)
+    return nil if Blog.offline
+
     flickr_config = YAML.load_file(config_filepath)
 
     # Application configuration

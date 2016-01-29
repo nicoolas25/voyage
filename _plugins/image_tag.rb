@@ -11,7 +11,7 @@ module Jekyll
 
     def render(context)
       article_path = context["page"]["path"]
-      Blog::USER ||= Blog.auth("#{Blog::ROOT_DIR}/_flickr.yml")
+      Blog.user ||= Blog.auth("#{Blog::ROOT_DIR}/_flickr.yml")
       article = Blog::ArticleCache.fetch(article_path)
 
       image = article.images.find do |image|

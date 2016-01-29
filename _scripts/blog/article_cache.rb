@@ -1,3 +1,5 @@
+require "net/http"
+
 module Blog
   module ArticleCache
     extend self
@@ -6,7 +8,7 @@ module Blog
       article = store[article_path]
       return article if article && article.fresh?
       article = Blog::Article.fetch(article_path)
-      article.sync!
+      article.sync! unless Blog.offline
       store[article_path] = article
     end
 
@@ -15,5 +17,7 @@ module Blog
     def store
       @store ||= {}
     end
+
   end
+
 end

@@ -54,4 +54,3 @@ Voila, c'est tout pour cette fois. C'est dûr de trouver le temps pour écrire, 
 monter les vidéos, etc. On va quand même essayer de garder le rythme.
 
 Hasta luego !
-

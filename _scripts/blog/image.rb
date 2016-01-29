@@ -4,6 +4,7 @@ module Blog
   Image = Struct.new(:article, :path, :flickr_id) do
 
     def self.download(article, name:, url:, flickr_id:)
+      raise "Can't do this offline" if Blog.offline
       path = "#{article.image_dir}/#{name}"
       puts "  downloading #{name} from Flickr..."
       File.open(path, "wb") { |f| f.write(open(url).read) }
@@ -11,10 +12,12 @@ module Blog
     end
 
     def sync!
+      raise "Can't do this offline" if Blog.offline
       self.flickr_id ||= find_photo || upload_photo
     end
 
     def add_to_album!
+      raise "Can't do this offline" if Blog.offline
       raise "This image has no flickr_id." unless flickr_id
       flickr.photosets.addPhoto(photoset_id: article.album_id, photo_id: flickr_id)
       puts "  adding the #{basename} photo to the article album..."
@@ -24,8 +27,12 @@ module Blog
     end
 
     def url(size=:url_c)
-      @info ||= flickr.photos.getInfo(photo_id: flickr_id)
-      FlickRaw.__send__(size, @info)
+      if Blog.offline
+        "file://" + path
+      else
+        @info ||= flickr.photos.getInfo(photo_id: flickr_id)
+        FlickRaw.__send__(size, @info)
+      end
     end
 
     def basename
@@ -35,7 +42,7 @@ module Blog
     private
 
     def find_photo
-      result = flickr.photos.search(user_id: Blog::USER["id"], text: basename).first
+      result = flickr.photos.search(user_id: Blog.user["id"], text: basename).first
       if result
         puts "  using the existing #{basename} photo..."
         result["id"]
