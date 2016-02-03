@@ -14,6 +14,8 @@ Nous sommes chez notre second hôte depuis maintenant plus d'une semaine. Nous s
 arrivés en avance, le dimanche soir. Javier nous a accueilli à La Codosera puis conduit
 jusqu'au « camp » où se trouvait les autres volontaires.
 
+<!--more-->
+
 Nous avons découvert notre nouveau lieu de vie, pour les prochaines semaines, de nuit. Marion en
 reparlera peut être dans un autre article mais le confort est à son minimum. Le travail
 nous occupe de 9h à 14h en semaine. Le temps de faire à manger, de manger et de faire
