@@ -28,7 +28,7 @@ module Blog
 
     def url(size=:url_c)
       if Blog.offline
-        "file://" + path
+        "/public/flickr/" + article.basename + "/" + basename
       else
         @info ||= flickr.photos.getInfo(photo_id: flickr_id)
         FlickRaw.__send__(size, @info)

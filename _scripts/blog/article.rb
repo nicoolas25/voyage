@@ -94,6 +94,7 @@ module Blog
     end
 
     def fresh?
+      return true if Blog.offline
       spath = self.class.store_path(basename)
       last_image_at = image_paths.map { |path| File.ctime(path) }.max
       File.ctime(spath) > last_image_at
