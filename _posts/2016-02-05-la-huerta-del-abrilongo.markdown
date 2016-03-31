@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "La huerta del Abrilongo"
+title:      "Las huertas del Abrilongo"
 date:       2016-02-05 15:00:00
 photo:      DSC_0133.JPG
 subtitle:   "Retour aux basiques • Vie en communauté"
