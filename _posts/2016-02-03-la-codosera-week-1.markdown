@@ -32,11 +32,11 @@ pour les cultures à venir. Ça veut dire beaucoup d'allers et venues en poussan
 brouettes de feuilles, fumier, écorces, etc.
 
 Pour la petite histoire, le père de Javier a des moutons, moutons qui sont gardés par Bobby,
-un Mâtin Espagnol, qui est plein de pûces. Du coup, nous avons vérifié une partie de notre
+un Mâtin Espagnol, qui est plein de puces. Du coup, nous avons vérifié une partie de notre
 proverbe : en voyageant on récolte au moins les puces.
 
 Tout ça ne semble pas très fun me direz-vous. En fait, cette première semaine a été très
-agréable grâce à l'ambiance sur le camp. Nous sommes les aînés de 4 autres volontaire :un Anglais,
+agréable grâce à l'ambiance sur le camp. Nous sommes les aînés de 4 autres volontaires :un Anglais,
 un Finlandais et un couple d'Allemands. La vie en communauté, avec des inconnus, dans un espace
 assez réduit et dans un confort <i>inhabituel</i> ça change. Les autres volontaires sont très
 sympa. Hugo est là depuis 6 mois et nous sert un peu de référence à tous je pense.

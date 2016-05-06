@@ -15,7 +15,7 @@ que le reste du temps ils sont libre d'aller se nourir dans les prairies des ale
 
 {% flickr DSC_0673.jpg %}
 
-De là ou nous travaillons, le panorama est très beau. On peut voir et accèder à l'océan,
+De là où nous travaillons, le panorama est très beau. On peut voir et accèder à l'océan,
 au bout du terrain nous avons des falaises. Les habitants de l'île vivent principalement de
 l'élevage et du tourisme.
 
@@ -23,12 +23,12 @@ l'élevage et du tourisme.
 
 En quelques semaines on a vu énormément de choses de passer. On a vu naitre plein de chèvres.
 On a pris soin des mamans et des bébés. On a trait à la main. On a traité des chèvres malades.
-On a eu des urgences. On a même enterré (litérallement) une des mamans qui a eu des
+On a eu des urgences. On a même enterré (litéralement) une des mamans qui a eu des
 complications lors de son accouchement.
 
 {% flickr DSC_0597.jpg %}
 
-Notre boulot ne se limittant pas aux chèvres, on a aussi des tâches de maintenance de la ferme :
+Notre boulot ne se limitant pas aux chèvres, on a aussi des tâches de maintenance de la ferme :
 peinture, fumier, préparation de bois, nettoyage, rangement, etc. Des touristes passent régulièrement
 et on leur vend des glaces et du fromage, parfois on leur fait voir les chèvres et leurs bébés. On
 a aussi eu la chance de faire du fromage et de la crème glacée.
@@ -38,7 +38,7 @@ toutes accoucher dans les trois jours. Lorsqu'un bébé arrive il a besoin de su
 s'assurer que les mamans aient bien à manger, qu'elles n'aient pas froid, qu'elles nourrissent
 correctement leurs bébés, etc. Parfois une maman n'acceptent pas tout de suite son bébé et l'empêche
 de se nourrir. Dans ce genre de cas, on essaye de rassurer la maman et de la forcer à laisser son
-petit se nourrir. Pour beaucoup de bébés, se nourrir n'est pas évident les premiers jours. Ils
+petit se nourrir. Pour beaucoup de bébés, ce n'est pas évident les premiers jours. Ils
 n'arrivent pas à attraper le sein de leur mère, et ne se nourrissent donc pas... À ce moment là on
 l'aide et on le guide, en lui mettant carrément la <em>tétine</em> de sa maman dans la bouche. Bref,
 tout ça quand on a une dizaine de bébé ça prend un temps fou et ça fini tard.
@@ -47,7 +47,7 @@ tout ça quand on a une dizaine de bébé ça prend un temps fou et ça fini tar
 
 Après cette phase, le rythme est devenu plus tranquille. Il restait la routine du matin : nourrir les
 chats, préparer la traite, traire les chèvres et nettoyer derrière elles. Marion fera un article à ce
-sujet, accompagné d'une vidéo, dans un prochain article.
+sujet, accompagné d'une vidéo, dans un prochain billet.
 
 Dans tout ça, on sort finalement assez peu se promener. Déjà car on est limité à l'île et ensuite car
 il faut rentrer les chèvres en fin d'après midi. Donc entre la fin de la traite puis le repas et le

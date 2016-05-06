@@ -3,15 +3,15 @@ layout:     post
 title:      Bourlinguer en Berlingo
 date:       2016-01-24
 catégories: espagne
-stamp:      timbres-spain.png
+stamp:      timbres-spain-2.png
 author:     Marion
 location :
-  - Dans "le Bourlingot"
+  - Dans "le Bourlingo"
   - Andalucia y
   - Extremadura
 ---
 
-Depuis notre départ Mercredi de Marbella, nous dormons dans notre voiture, rebaptisée pour l'occasion "le Bourlingot". Cela fait donc 4 nuits que nous dormons dans les rues espagnoles. Nous avons ainsi testé Cordoue, un petit bled dans la montagne près de Cordoue, Séville et un bled sur le chemin de notre prochain hôte.
+Depuis notre départ Mercredi de Marbella, nous dormons dans notre voiture, rebaptisée pour l'occasion "le Bourlingo". Cela fait donc 4 nuits que nous dormons dans les rues espagnoles. Nous avons ainsi testé Cordoue, un petit bled dans la montagne près de Cordoue, Séville et un bled sur le chemin de notre prochain hôte.
 
 <!--more-->
 
@@ -22,7 +22,7 @@ Généralement, quand on a trouvé le lieu on commence par monter le sommier en 
 
 Une fois que nous avons terminé tout ça, on se fait un petit pique nique. Nous avons une petite glacière avec du beurre et du pain : le minimum vital !! ^^ Nous avons aussi des fruits, et généralement un avocat, du jambon ou du fromage pour mettre sur le pain.
 
-Une fois le repas terminé, il est temps de rentrer se coucher, on se faufile donc entre le matelas et le plafond de la voiture, en laissant les chaussures sous le lit, à l'enplacement des sièges lorsqu'ils ne sont pas repliés. Ensuite c'est un drôle de ballet pour placer les rideaux occultants aux fenêtres avec des aimants néodyme. Faire tomber un aimant est un drâme que l'on cherche à éviter chaque soir. Enfin, nous nous contorsionnons pour nous changer. On enfile nos vêtements chauds de nuit (type collants de randonnée, sous-pull) et on se glisse dans le duvet. Nous n'oublions pas de laisser les fenêtres entrouvertes pour que de l'air chargé d'oxygène (et d'air frais) entre dans la voiture. Il parait que certains sont morts pour ne pas avoir ouvert leurs fenêtres... Et effectivement, quand on ne les ouvre pas suffisamment vite on suffoque un peu. Il ne faut pas oublier que nous sommes 3 dans un petit espace, avec Indiana. Ce serait vraiment bête !!
+Une fois le repas terminé, il est temps de rentrer se coucher, on se faufile donc entre le matelas et le plafond de la voiture, en laissant les chaussures sous le lit, à l'enplacement des sièges lorsqu'ils ne sont pas repliés. Ensuite c'est un drôle de ballet pour placer les rideaux occultants aux fenêtres avec des aimants néodyme. Faire tomber un aimant est un drame que l'on cherche à éviter chaque soir. Enfin, nous nous contorsionnons pour nous changer. On enfile nos vêtements chauds de nuit (type collants de randonnée, sous-pull) et on se glisse dans le duvet. Nous n'oublions pas de laisser les fenêtres entrouvertes pour que de l'air chargé d'oxygène (et d'air frais) entre dans la voiture. Il parait que certains sont morts pour ne pas avoir ouvert leurs fenêtres... Et effectivement, quand on ne les ouvre pas suffisamment vite on suffoque un peu. Il ne faut pas oublier que nous sommes 3 dans un petit espace, avec Indiana. Ce serait vraiment bête !!
 
 Et ensuite : Dodo time !!
 
