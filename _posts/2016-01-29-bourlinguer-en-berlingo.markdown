@@ -2,7 +2,7 @@
 layout:     post
 title:      Bourlinguer en Berlingo
 date:       2016-01-24
-catégories: espagne
+categories: espagne
 stamp:      timbres-spain-2.png
 author:     Marion
 location :

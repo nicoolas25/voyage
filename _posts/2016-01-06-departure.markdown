@@ -2,7 +2,9 @@
 layout:     post
 title:      "Le grand départ"
 date:       2016-01-06 16:23:00
-categories: france espagne
+categories:
+  - france
+  - espagne
 author:     Nicolas
 stamp:      timbres-spain.png
 location:

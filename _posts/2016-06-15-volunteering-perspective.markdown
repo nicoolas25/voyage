@@ -2,7 +2,7 @@
 layout:     post
 title:      "Volunteering perspective"
 date:       2016-06-15 13:30:00
-categories: austria
+categories: autriche
 author:     Nicolas
 stamp:      timbres-vert.jpg
 location:
