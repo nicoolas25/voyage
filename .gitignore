@@ -4,3 +4,4 @@ _flickr.yml
 public/_flickr/**/*.pstore
 public/_flickr/**/*.jpg
 public/_flickr/**/*.JPG
+public/flickr
