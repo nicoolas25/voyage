@@ -2,9 +2,10 @@
 layout:     post
 title:      "Wales"
 date:       2016-05-15 14:30:20
+author:     Nicolas
+stamp:      timbres-wales.png
 categories:
   - pays de galles
-stamp:      timbres-wales.png
 location:
   - Sur les collines
   - parmi les moutons

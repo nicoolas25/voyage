@@ -1,0 +1,33 @@
+---
+layout:     post
+title:      "Equestrian center"
+date:       2016-06-15 22:00:00
+photo:      austria-DSC_0518.jpg
+subtitle:   La mauvaise surprise
+categories:
+  - autriche
+author:     Marion
+---
+
+Voici deux semaines que nous sommes arrivés dans ce nouveau lieu. Nous devions rester 1 mois complet mais nous repartons demain. Un séjour de deux semaines ici était largement suffisant.
+
+Nous sommes dans un centre équestre autrichien, spécialisé dans la thérapie assistée par le cheval. Je devais même être formée par notre hôte, un médecin compétent dans ce domaine, et obtenir un certificat pour pouvoir pratiquer ce genre de thérapie. Sur le papier tout était merveilleux.
+
+En réalité cela n'a pas eu lieu. Nous n'avons pas apprécié le séjour car les cours sont annulés les uns après les autres (du fait de la pluie quasi continue), les leçons théoriques sont inexistantes, tout comme l'organisation, la maison est une porcherie, l'ambiance familiale est réellement mauvaise, le travail inintéressant et l'hôte toujours insatisfaite. En plus 3 chevaux sur 9 sont malades / blessés et pourtant ils sont montés régulièrement.
+
+En fait, nous avons le sentiment de vivre dans les écuries d'Augias. Et ce n'est pas grâce aux chevaux.
+
+Les points positifs de ce séjour ?
+  - Mon bagage d'ergothérapeute me permet d'analyser les quelques rares séances qui ont eu lieu. J'ai largement le temps.
+  - Deux séances de thérapie assistée par le cheval ont été interessantes et inspirantes.
+  - La région est belle.
+  - Nous avions un accès illimité à la piscine extérieure du village (quand il ne pleuvait pas).
+  - Nous avons pratiqué un peu l'entretien de ruches. Ce qui réveille des envies d'apiculture maison, peut-être un jour.
+  - Nous avons appris à dire que ça n'allait pas et que nous ne resterons pas. Ce qui n'est pas forcément simple quand on s'est engagé par avance.
+
+Du coup nous reprenons la route demain, pour de plus belles aventures.
+
+Voici un aperçu de la meilleure séance : une princesse/fée est accompagnée de son chevalier aux cheveux roses et doit déjouer les pièges de la sorcière. ;)
+
+{% flickr austria-DSC_0518.jpg %}
+
